@@ -11,4 +11,4 @@ The module also support 3 12V relays which are used to turn on/off AC devices (l
 This is phase one which is functional and deployed. (doing the project here after its finished..)
 Phase 2 is to upgrade to ESP32 with addtional support for fixed RGB ligths (need more PWM..) and OTA.  
 
-Using the fastled and DMX library
+Based on the fastLED and DMXSerial library and examples
