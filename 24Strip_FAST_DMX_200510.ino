@@ -1,16 +1,16 @@
 /* https://learn.adafruit.com/led-tricks-gamma-correction/the-quick-fix
  JF Hybrid of DMX and FastLED
 
+This is the layout of DMX channels
+Channel[0] Brightness for the strip
+Channel[1] Mode- 255 = More below, controls mode of operations
+Channel[2] Speed of the animations
+Channel 3 
+Channel 4
+Channel 5  H1  When using fixed mode, Hue of the 1st section of LEDS
+Channel 6  H2  2nd sections
+Channel 7  H3   3rd sections
 
-//Channel[0] Brightness
-//Channel[1] Mode- 255 = fixed.
-//Channel[2] Speed
-//Channel 3 
-//Channel 4
-//Channel 5  H1
-//Channel 6  H2
-//Channel 7  H3
-//
 
 LED Strip Costco, 6leds/chip, 1 section per foot
 Section 1.. 9 feet,   0 to 8
@@ -164,14 +164,6 @@ void ChangeShow(uint8_t channelval)   // called to change show
     }
 
 
-
-// This function fills the palette with totally random colors.
-void SetupTotallyRandomPalette()
-{
-    for( int i = 0; i < 16; i++) {
-        currentPalette[i] = CHSV( random8(), 255, random8());
-    }
-}
 
 // This function sets up a palette of black and white stripes,
 // using code.  Since the palette is effectively an array of
