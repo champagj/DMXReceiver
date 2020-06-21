@@ -12,7 +12,7 @@ Channel 6  H2  2nd sections
 Channel 7  H3   3rd sections
 
 
-LED Strip Costco, 6leds/chip, 1 section per foot
+LED Strip 2811, 6leds/chip, 1 section per foot
 Section 1.. 9 feet,   0 to 8
 Section 2.. 9 feet   9 to 17
 Section 3...8 feet   18 to 26
