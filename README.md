@@ -1,5 +1,5 @@
 # DMXReceiver
-DMX receiver to control Smart LEDS and relays using Arduino
+DMX receiver to control 2811 Smart LEDS strips using Arduino
 
 My firts repository. As stated in my profile, background in electronics so more comfortable with hardware than software..
 
