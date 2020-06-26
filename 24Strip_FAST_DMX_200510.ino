@@ -273,3 +273,4 @@ const uint8_t PROGMEM bright[] = {
 // palette to Green (0,255,0) and Blue (0,0,255), and then retrieved 
 // the first sixteen entries from the virtual palette (of 256), you'd get
 // Green, followed by a smooth gradient from green-to-blue, and then Blue.
+// edit testing
